@@ -126,6 +126,13 @@
      border-top-left-radius: @radius;
 }
 
+.border-radius(@radius) {
+	.border-top-radius(@radius);
+	.border-right-radius(@radius);
+	.border-bottom-radius(@radius);
+	.border-left-radius(@radius);
+}
+
 // Drop shadows
 .box-shadow(@shadow) {
   -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
