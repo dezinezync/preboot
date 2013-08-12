@@ -196,6 +196,14 @@
           transform: translate3d(@x, @y, @z);
 }
 
+.transform-origin(@o) {
+	-webkit-transform-origin: @o;
+	   -moz-transform-origin: @o;
+	    -ms-transform-origin: @o;
+	     -o-transform-origin: @o;
+	        transform-origin: @o;
+}
+
 // Backface visibility
 //
 // Prevent browsers from flickering when using CSS 3D transforms.
